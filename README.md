@@ -23,12 +23,12 @@ yarn global add scrape-it-cli
 :bulb: **ProTip**: If you want to use this package as module, check out [`scrape-it`—the API version of it](http://github.com/IonicaBizau/scrape-it).
 
 
-Then, run `scrape-it-cli --help` and see what the CLI tool can do.
+Then, run `scrape-it --help` and see what the CLI tool can do.
 
 
 ```
-$ scrape-it-cli --help
-Usage: scrape-it-cli [options]
+$ scrape-it --help
+Usage: scrape-it [options]
 
 CLI for scrape-it. A Node.js scraper for humans. :rocket:
 
@@ -39,42 +39,11 @@ Options:
   -v, --version          Displays version information.
   -h, --help             Displays this help.
 
+Examples:
+  $ scrape-it -c config.json -u https://ionicabizau.net
+
 Documentation can be found at https://github.com/IonicaBizau/scrape-it-cli#readme.
 ```
-
-## :clipboard: Example
-
-
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
-
-```sh
-# Using npm
-npm install --save scrape-it-cli
-
-# Using yarn
-yarn add scrape-it-cli
-```
-
-
-
-```js
-const scrapeItCli = require("scrape-it-cli");
-
-console.log(scrapeItCli());
-```
-
-
-
-## :question: Get Help
-
-There are few ways to get help:
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
-
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
 
 ## :memo: Documentation
 
