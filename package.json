@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "scrape-it-cli": "bin/scrape-it-cli.js"
+  },
   "name": "scrape-it-cli",
   "description": "CLI for scrape-it. A Node.js scraper for humans. :rocket:",
   "keywords": [
@@ -42,5 +45,12 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/scrape-it-cli/issues"
+  },
+  "dependencies": {
+    "scrape-it": "^5.0.4",
+    "tilda": "^4.4.13"
+  },
+  "blah": {
+      "api": "scrape-it"
   }
 }

@@ -1,0 +1,9 @@
+{
+
+    "title": ".header h1"
+  , "desc": ".header h2"
+  , "avatar": {
+        "selector": ".header img"
+      , "attr": "src"
+    }
+}
