@@ -1,6 +1,6 @@
 {
   "bin": {
-    "scrape-it-cli": "bin/scrape-it-cli.js"
+    "scrape-it": "bin/scrape-it-cli.js"
   },
   "name": "scrape-it-cli",
   "description": "CLI for scrape-it. A Node.js scraper for humans. :rocket:",
